@@ -1,0 +1,26 @@
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 8px 10px #f0f0f0;
+    border-radius: 20px;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px 0;
+}
+.rowHead {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* .image img{
+    width: 25px;
+    height: 25px;
+} */
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
